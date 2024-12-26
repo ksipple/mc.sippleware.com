@@ -1,70 +1,74 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Sippleware</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://sippleware.com/sw.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body,h1 {font-family: "Raleway", Arial, sans-serif}
-h1 {letter-spacing: 6px}
-.w3-row-padding img {margin-bottom: 12px}
-</style>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Emerson | Linktree</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://avatars0.githubusercontent.com/u/43749971" type="image/x-icon" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
+  <body>
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+    <!-- End of Parallax Pixel Background Animation -->
 
-<!-- Header -->
-<header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
-  <h1 class="w3-xlarge">SW</h1>
-  <h1>Sippleware</h1>
-  
-  <div class="w3-padding-32">
-    <div class="w3-bar w3-border">
-      <a href="#" class="w3-bar-item w3-button w3-light-grey">Home</a>
-      <a href="#" class="w3-bar-item w3-button">Portfolio</a>
-      <a href="#" class="w3-bar-item w3-button">Contact</a>
-      <a href="#" class="w3-bar-item w3-button w3-hide-small">About</a>
+    <a id="profilePicture" href="#popup">
+      <img src="https://avatars0.githubusercontent.com/u/43749971" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+      <div class="popup">
+        <div class="popup-photo">
+          <a href="https://avatars0.githubusercontent.com/u/43749971" target="_blank">
+            <img src="https://avatars0.githubusercontent.com/u/43749971" alt="Profile Picture">
+          </a>
+        </div>
+        <div class="popup-quote">
+          But... the sensation that I've lost something lingers for a longtime after I wake up.
+        </div>
+        <a class="popup-close" onclick="history.back()">&times;</a>
+      </div>
     </div>
-  </div>
-</header>
 
-<div class="image-center" style="margin-bottom:128px"></div>
-	<img src="/images/cp-aisle-software.jpg" style="width:100%">
-</div>
+    <div id="userName">
+      @ksipple
+    </div>
 
-<!-- Photo Grid -->
- 
-<!--<div class="w3-row-padding w3-grayscale" style="margin-bottom:128px">
-  <div class="w3-half">
-    <img src="/images/cp-aisle-software.jpg" style="width:100%">
-  </div>
-  <div class="w3-half">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-    <img src="/w3images/ocean.jpg" style="width:100%">
-    <img src="/w3images/wedding.jpg" style="width:100%">
-    <img src="/w3images/mountainskies.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-  </div>
+    <div id="links">
+      <a class="link" href="https://github.com/ksipple" target="_blank">
+        <i class="fab fa-github">&nbsp;</i>Github
+      </a>
+      <!--<a class="link" href="https://www.linkedin.com/#" target="_blank">
+        <i class="fab fa-linkedin">&nbsp;</i>Linkedin
+      </a>-->
+      <!--<a class="link" href="https://www.facebook.com/#" target="_blank">
+        <i class="fab fa-facebook">&nbsp;</i>Facebook
+      </a>-->
+      <a class="link" href="https://instagram.com/ksipple" target="_blank">
+        <i class="fab fa-instagram">&nbsp;</i>Instagram
+      </a>
+      <a class="link" href="https://twitter.com/sipple" target="_blank">
+        <i class="fab fa-twitter">&nbsp;</i>Twitter
+      </a>
+      <a class="link" href="https://www.printables.com/@sipple" target="_blank">
+        <i class="fab fa-cube">&nbsp;</i>Printables
+      </a>
+      <a class="link" href="https://discord.com/users/ksipple" target="_blank">
+        <i class="fab fa-discord">&nbsp;</i>Printables
+      </a>
+    </div>
 
--->
-  
-<!-- End Page Content -->
-</div>
-
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large"> 
-<!-- <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>-->
-</footer>
-
-</body>
+    <div id="hashtag">
+      #KS
+    </div>
+  </body>
 </html>
